@@ -1,4 +1,4 @@
-# HAP-ledstrip
+# HAP-WS2801
 HAP-NodeJS WS2801 ledstrip accessory
 
 The WS2801 ledstrip: https://learn.adafruit.com/12mm-led-pixels/project-ideas
