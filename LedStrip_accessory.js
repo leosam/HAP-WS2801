@@ -157,6 +157,19 @@ var LightController = {
   },
 
   identify: function() { //identify the accessory
+    
+    for (var i = 0; i <= 3; i++) {
+      var color = rgb(353,100,100);
+      update_color(color, this.number_leds, 3);
+      rpio.msleep(200);
+      var color = rgb(256,100,100);
+      update_color(color, this.number_leds, 3);
+      rpio.msleep(200);
+    }
+    
+    // Return to normal color
+    var color = rgb(this.hue,this.saturation,this.brightness);
+    update_color(color, this.number_leds, 3);
     if(this.outputLogs) console.log("Identify the '%s'", this.name);
   }
 }
