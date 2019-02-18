@@ -23,4 +23,4 @@ Install the LedStrip_accessory.js file in the HAP-NodeJS's accessory folder
 
 ## Credits
 
-This led strip accessory is heavily inspired from the [Light_accessory.js](https://github.com/KhaosT/HAP-NodeJS/blob/master/accessories/Light_accessory.js). Please check [there](https://github.com/KhaosT/HAP-NodeJS) for more accessory examples.
+This led strip accessory is heavily inspired from the [Light_accessory.js](https://github.com/KhaosT/HAP-NodeJS/blob/master/accessories/Light_accessory.js) from [KhaosT's HAP-NodeJS](https://github.com/KhaosT/HAP-NodeJS). Please check [there](https://github.com/KhaosT/HAP-NodeJS) for more accessory examples.
